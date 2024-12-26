@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Quiz App</title>
     <link rel="stylesheet" href="styles/inde.css">
+    <link rel="stylesheet" href="./styles/quiz.css">
 </head>
 <body>
     <div id="nav"></div>
     
-</body>
+    <form id="Quiz">
+        <input type="text"  id="text" placeholder="EnterQuestion">
+        <select name="select" id="select">
+            <option value="Selection">Select Your Answer</option>
+            <option value="a">A</option>
+            <option value="a">B</option>
+            <option value="a">C</option>
+            <option value="a">D</option>
 
+        </select>
+        <button id="save">Enter</button>
+
+
+
+    </form>
+    <div id="cont"></div>
+    
+</body>
+<script src="./scripts/quiz.js"></script>
 <script src="./scripts/index.js"></script>
 </html>

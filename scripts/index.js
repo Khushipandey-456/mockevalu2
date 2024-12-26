@@ -13,18 +13,18 @@ let navbar =()=>{
 navbar()
 
 let form1=function getData(){
-let form= document.getElementById("form").innerHTML
-form.addEventListener(("click"),()=>{
     let email=document.getElementById("email").innerHTML;
     let newemail="empher@gmail.com";
     let pass=document.getElementById("password").innerHTML;
     let newpasss="empher@123";
+let form= document.getElementById("loignbtn").innerHTML
+form.addEventListener("click",()=>{
     if(email===newemail && pass===newpasss){
      alert("Login Success, you are redirecting to quiz page")
     } else{
         alert("Something went wrong")
     }
-    window.location.quiz.html.innerHTML
+
 })
 }
 getData()
