@@ -1,6 +1,6 @@
  async function getData() {
     try {
-        let res= await fetch("https://evergreen-bow-alamosaurus.glitch.me/MiniQuiz")
+        let res= await fetch("https://evergreen-bow-alamosaurus.glitch.me")
         let data= await res.json() 
         console.log(data)
         displayData(data)
